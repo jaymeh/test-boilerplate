@@ -1,0 +1,5 @@
+core
+node_modules
+dist
+admin_dist
+hot-reload.json

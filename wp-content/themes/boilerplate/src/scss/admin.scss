@@ -1,0 +1,17 @@
+// Use infrastructure
+@use 'fonts';
+
+// Use base elements
+@use 'base';
+
+// Use components
+@use 'components/header';
+
+.acf-block-preview {
+	// Render base elements
+	@include base.render;
+
+	// Render components
+	@include header.render;
+	@include header.wordpresss_editor;
+}

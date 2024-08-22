@@ -1,0 +1,12 @@
+@use "../globals";
+@use "node_modules/creode-components/src/components/header";
+
+@include header.configure();
+
+@mixin render {
+	@include header.render();
+}
+
+@mixin wordpresss_editor() {
+	@include header.wordpresss_editor();
+}

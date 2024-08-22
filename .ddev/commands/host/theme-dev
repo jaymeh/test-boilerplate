@@ -1,0 +1,8 @@
+#!/bin/bash
+
+## #ddev-generated
+## Description: Run theme assets through dev mode.
+## Usage: theme-dev
+## Example: ddev theme-dev
+
+ddev exec "cd wp-content/themes/boilerplate && npm run dev"

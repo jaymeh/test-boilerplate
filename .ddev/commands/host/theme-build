@@ -1,0 +1,8 @@
+#!/bin/bash
+
+## #ddev-generated
+## Description: Build the assets within the theme
+## Usage: theme-build
+## Example: ddev theme-build
+
+ddev exec "cd wp-content/themes/boilerplate && npm run build"

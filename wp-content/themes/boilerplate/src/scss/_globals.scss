@@ -1,0 +1,25 @@
+@use "node_modules/creode-components/src/components/globals";
+
+// Configuration of creode components globals
+@include globals.configure();
+
+// Maximum width of positive space
+$maximum-width: globals.$maximum-width;
+
+// Breakpoints
+$breakpoint-medium: globals.$breakpoint-medium;
+$breakpoint-large: globals.$breakpoint-large;
+
+// Spacing
+$space-vertical: globals.$space-vertical;
+$space-horizontal: globals.$space-horizontal;
+
+// Fonts
+$font-dominant: '';
+$font-standard: '';
+
+// Colors
+$color-a: #92d4d2;
+$color-ab: #3a928f;
+$color-b: #fd7777;
+$color-c: #252422;

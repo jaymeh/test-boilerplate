@@ -1,0 +1,32 @@
+@use "globals";
+@use "extenders/focus";
+@use "node_modules/creode-components/src/components/base";
+
+@mixin render {
+	* {
+		box-sizing: border-box;
+
+		&:focus {
+			@extend %focus;
+		}
+	}
+
+	body {
+		margin: 0;
+		font-family: globals.$font-standard;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		margin: 0 0 globals.$space-vertical;
+		font-family: globals.$font-dominant;
+	}
+
+	p {
+		margin: 0 0 globals.$space-vertical;
+	}
+}

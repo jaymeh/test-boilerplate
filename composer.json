@@ -1,0 +1,19 @@
+{
+    "require": {
+        "creode/wordpress-blocks": "^0.0.4",
+        "creode/wordpress-theme-core": "^0.0.4"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    },
+    "scripts": {
+        "setup": "wp eval-file --skip-wordpress boilerplate/setup-command.php"
+    },
+    "extra": {
+        "installer-paths": {
+            "wp-content/themes/[[[THEME_SLUG]]]/core/": ["type:wordpress-themecore"]
+        }
+    }
+}
